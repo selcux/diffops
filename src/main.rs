@@ -1,7 +1,7 @@
-mod diff;
+mod resource;
 
 use clap::{Arg, App};
-use crate::diff::{Resource};
+use crate::resource::{Resource};
 // use std::env;
 use std::error::Error;
 
